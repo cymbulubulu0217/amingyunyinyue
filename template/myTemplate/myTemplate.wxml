@@ -1,0 +1,9 @@
+<template name="myTem">
+    <view>
+        <text>这是我自定的模板内容</text>
+    </view>
+    <view>
+        <text> {{index}}: {{msg}} </text>
+        <text> Time: {{time}} </text>
+    </view>
+</template>

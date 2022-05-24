@@ -1,0 +1,8 @@
+<import src="../../template/myTemplate/myTemplate.wxml"/>
+
+
+<view class="oteherContainer">
+<!--    测试模板-->
+    <view>测试模板</view>
+    <template is="myTem" data="{{...item}}"></template>
+</view>
